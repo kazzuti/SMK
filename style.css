@@ -1,6 +1,40 @@
 /* Put custom CSS in here */
 
-.buttongreen {
+.title1 {
+  position: relative;
+  top: 5%;
+  left: 20%;
+  font-size: 25px;
+}
+
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#picture1 {
+  height: 400px;
+  background-color: grey;
+}
+
+#section1 {
+  height: 820px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 820px;
+  background-color: yellow;
+}
+
+#section3 {
+  height: 820px;
+  background-color: green;
+}
+
+.buttongreen1 {
     position: absolute;
     top: 85%;
     right: 5%;
@@ -8,9 +42,41 @@
     width: 100px;
   }
 
-.buttonred {
+.buttonred1 {
     position: absolute;
     top: 85%;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen2 {
+    position: absolute;
+    top: 1500px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred2 {
+    position: absolute;
+    top: 1500px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen3 {
+    position: absolute;
+    top: 2320px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred3 {
+    position: absolute;
+    top: 2320px;
     left: 5%;
     height: 100px;
     width: 100px;
@@ -23,11 +89,13 @@
     align-content: center;
   }
 
-.flex-text {
-    background: grey;
-    height: 200px;
+.description1 {
+    position: relative;
     text-align: center;
-    width: 50%;
+    top: 50px;
+    max-width: 800px;
+    margin:0 auto;
+
   }
 
 
