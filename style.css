@@ -3,8 +3,59 @@
 .title1 {
   position: relative;
   top: 5%;
-  left: 20%;
+  left: 15%;
   font-size: 25px;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+  font-style: italic;
+}
+
+.description1 {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  max-width: 800px;
+  margin:0 auto;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+}
+
+.logo {
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+
+.logo2 {
+  position: relative;
+  top: 20%;
+  left: 35%;
+}
+
+.logo3 {
+  position: relative;
+  top: 50%;
+  left: 35%;
+}
+
+.spinner {
+  position: relative;
+  top: 350px;
+  left: 47%;
+}
+
+.spinnertext {
+  position: relative;
+  top: 300px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+}
+
+.progresswidth {
+  max-width: 80%;
+  margin: auto;
 }
 
 .centerimg {
@@ -19,19 +70,40 @@
   background-color: grey;
 }
 
-#section1 {
-  height: 820px;
-  background-color: pink;
-}
-
 #section2 {
   height: 820px;
-  background-color: yellow;
+  background: rgb(196,196,196);
+background: -moz-linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
+background: linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endColorstr="#c2c2c2",GradientType=1);
+}
+
+#frontpage {
+  height: 820px;
+  background-image: url("pictures/frontpage.jpg");
+}
+
+#section1 {
+  height: 820px;
+  background-image: url("pictures/background3.jpg");
+
 }
 
 #section3 {
   height: 820px;
   background-color: green;
+}
+
+.startbtn {
+  position: absolute;
+  top: 60%;
+  right: 37%;
+  height: 100px;
+  width: 400px;
+  font-size: 40px;
+  font-family: Hill;
+  src: url(font/Hill.otf);
 }
 
 .buttongreen1 {
@@ -87,15 +159,6 @@
     height: 400px;
     text-align: center;
     align-content: center;
-  }
-
-.description1 {
-    position: relative;
-    text-align: center;
-    top: 50px;
-    max-width: 800px;
-    margin:0 auto;
-
   }
 
 

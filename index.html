@@ -21,7 +21,6 @@ https://getbootstrap.com/docs/4.3/layout/grid/
     <title>Prototype - UX Design I</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <script>
     $(document).ready(function(){
     // Add smooth scrolling to all links
@@ -54,16 +53,25 @@ https://getbootstrap.com/docs/4.3/layout/grid/
   <body>
 
     <div class="main" id="section1">
-
-      <img src="pictures/test.jpg" alt="test text" style="width:1000px;height:400px;position: relative;" class="centerimg">
-      <a class="title1">Titel på kunstværk<br>Kunstner + Årstal</a>
+        <img src="pictures/smk.png" alt="smk logo" style="width:100px;height:40px;position: relative;" class="img-fluid logo">
+      <br><br>
+      <div class="progress progresswidth">
+          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">1/10</div>
+        </div>
+      <br>
+      <img src="pictures/test.jpg" alt="piece of art" style="width:1000px;height:400px;position: relative;" class="img-fluid centerimg">
+      <a class="title1">Selvportræt af studielivet<br>Charlotte Haulund Pedersen, 2015</a>
       <p class="description1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sem et tortor consequat id porta nibh venenatis cras. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Sit amet venenatis urna cursus eget. At tempor commodo ullamcorper a. Accumsan in nisl nisi scelerisque eu ultrices vitae. Massa sapien faucibus et molestie ac feugiat sed lectus. Ut enim blandit volutpat maecenas. Viverra tellus in hac habitasse platea dictumst vestibulum. Sit amet volutpat consequat mauris nunc congue. Sed tempus urna et pharetra pharetra massa massa ultricies. Massa tincidunt dui ut ornare.</p>
     </div>
     <a href="#section2" class="d-flex justify-content-start">
-        <button type="button" class="btn btn-outline-danger buttonred1">Dislike</button>
+        <button type="button" class="btn btn-outline-danger buttonred1">
+            <img src="pictures/x.png" alt="heart logo" style="width:60px;height:60px;position: relative;" class="img-fluid">
+        </button>
     </a>
     <a href="#section2" class="d-flex justify-content-end">
-        <button type="button" class="btn btn-outline-success buttongreen1">Like</button>
+        <button type="button" class="btn btn-outline-success buttongreen1">
+            <img src="pictures/heart.png" alt="heart logo" style="width:70px;height:70px;position: relative;" class="img-fluid">
+        </button>
     </a>
 
     <div class="main" id="section2">
