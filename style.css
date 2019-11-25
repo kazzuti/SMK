@@ -1,10 +1,90 @@
 /* Put custom CSS in here */
 
-.title1 {
+
+.end {
+  text-align: center;
+}
+
+.endtekst {
   position: relative;
-  top: 5%;
-  left: 15%;
+  text-align: center;
+  margin:0 auto;
+  left: 22%;
+  top: 56%;
   font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+.endtekst1 {
+  position: relative;
+  text-align: center;
+  margin:0 auto;
+  left: 28.5%;
+  top: 55%;
+  color: black;
+  text-decoration: underline;
+}
+
+.endtekst2 {
+  position: relative;
+  text-align: center;
+  margin:0 auto;
+  left: 15.5%;
+  top: 82%;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+.endtekst22 {
+  position: relative;
+  text-align: center;
+  margin:0 auto;
+  left: 23.7%;
+  top: 83%;
+  color: black;
+  text-decoration: underline;
+}
+
+.endtekst3 {
+  position: relative;
+  text-align: center;
+  margin:0 auto;
+  left: 17.5%;
+  top: 82%;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+#sectionfinal {
+  height: 820px;
+  background-image: url("pictures/end.jpg");
+
+}
+
+#sectionfinalleth {
+  height: 820px;
+  background-image: url("pictures/endleth.jpg");
+
+}
+
+#sectionfinalbogh {
+  height: 820px;
+  background-image: url("pictures/endbogh.jpg");
+
+}
+
+.title1 {
+  text-align: center;
+}
+
+.title2 {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  margin:0 auto;
   font-family: Hill;
   src: url(font/Hill.otf);
   font-style: italic;
@@ -23,7 +103,7 @@
 .logo {
   position: relative;
   top: 25px;
-  left: 25px;
+  left: 15px;
 }
 
 .logo2 {
@@ -33,9 +113,21 @@
 }
 
 .logo3 {
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 20%;
   left: 35%;
+}
+
+.restart {
+  position: relative;
+  top: 15px;
+  left: 95%;
+}
+
+.restart2 {
+  position: relative;
+  top: 20px;
+  left: 50%;
 }
 
 .spinner {
@@ -70,29 +162,9 @@
   background-color: grey;
 }
 
-#section2 {
-  height: 820px;
-  background: rgb(196,196,196);
-background: -moz-linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
-background: linear-gradient(90deg, rgba(196,196,196,1) 0%, rgba(128,128,128,1) 50%, rgba(194,194,194,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endColorstr="#c2c2c2",GradientType=1);
-}
-
 #frontpage {
   height: 820px;
   background-image: url("pictures/frontpage.jpg");
-}
-
-#section1 {
-  height: 820px;
-  background-image: url("pictures/background3.jpg");
-
-}
-
-#section3 {
-  height: 820px;
-  background-color: green;
 }
 
 .startbtn {
@@ -154,71 +226,395 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endCo
     width: 100px;
   }
 
-.flex-billede {
-    background: chocolate;
-    height: 400px;
-    text-align: center;
-    align-content: center;
+  .buttongreen4 {
+    position: absolute;
+    top: 3140px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred4 {
+    position: absolute;
+    top: 3140px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen5 {
+    position: absolute;
+    top: 3960px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred5 {
+    position: absolute;
+    top: 3960px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttongreen6 {
+    position: absolute;
+    top: 4780px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred6 {
+    position: absolute;
+    top: 4780px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttongreen7 {
+    position: absolute;
+    top: 5600px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred7 {
+    position: absolute;
+    top: 5600px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen8 {
+    position: absolute;
+    top: 6420px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred8 {
+    position: absolute;
+    top: 6420px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttongreen9 {
+    position: absolute;
+    top: 7240px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred9 {
+    position: absolute;
+    top: 7240px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttongreen10 {
+    position: absolute;
+    top: 8060px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred10 {
+    position: absolute;
+    top: 8060px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen11 {
+    position: absolute;
+    top: 8880px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred11 {
+    position: absolute;
+    top: 8880px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen12 {
+    position: absolute;
+    top: 9700px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred12 {
+    position: absolute;
+    top: 9700px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen13 {
+    position: absolute;
+    top: 10520px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred13 {
+    position: absolute;
+    top: 10520px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen14 {
+    position: absolute;
+    top: 11340px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred14 {
+    position: absolute;
+    top: 11340px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen15 {
+    position: absolute;
+    top: 12160px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred15 {
+    position: absolute;
+    top: 12160px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen16 {
+    position: absolute;
+    top: 12980px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred16 {
+    position: absolute;
+    top: 12980px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen17 {
+    position: absolute;
+    top: 13800px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred17 {
+    position: absolute;
+    top: 13800px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen18 {
+    position: absolute;
+    top: 14620px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred18 {
+    position: absolute;
+    top: 14620px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen19 {
+    position: absolute;
+    top: 15440px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred19 {
+    position: absolute;
+    top: 15440px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .buttongreen20 {
+    position: absolute;
+    top: 16260px;
+    right: 5%;
+    height: 100px;
+    width: 100px;
+  }
+
+.buttonred20 {
+    position: absolute;
+    top: 16260px;
+    left: 5%;
+    height: 100px;
+    width: 100px;
   }
 
 
-
-  @import "compass/css3";
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  #section1 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
   
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+  }
   
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  #section2 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
   
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-title {
-  background: tomato;
-  padding: 5px;
-  width: 50%;
-  height: 150px;
-  margin-top: 10px;
+  }
   
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
-
-.flex-item-full {
-  background: tomato;
-  padding: 5px;
-  width: 95%;
-  height: 400px;
-  margin-top: 10px;
-  align-content: center;
+  #section3 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
   
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
+  }
+  
+  #section4 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section5 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section6 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section7 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section8 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section9 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section10 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section11 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section12 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section13 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section14 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section15 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section16 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section17 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section18 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section19 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
+  
+  #section20 {
+    height: 820px;
+    background-image: url("pictures/background3.jpg");
+  
+  }
