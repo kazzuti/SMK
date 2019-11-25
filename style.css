@@ -60,6 +60,7 @@
 
 #sectionfinal {
   height: 820px;
+  max-width: 90%;
   background-image: url("pictures/end.jpg");
 
 }
@@ -90,6 +91,39 @@
   font-style: italic;
 }
 
+.frontpagetext {
+  position: relative;
+  font-size: 45px;
+  margin:0 auto;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+  top: 33%;
+  left: 6%;
+  text-shadow: 3px 3px #000000;
+}
+
+.frontpagetext2 {
+  position: relative;
+  font-size: 25px;
+  margin:0 auto;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+  top: 38%;
+  left: -25%;
+  text-shadow: 3px 3px #000000;
+}
+
+.frontpagetext3 {
+  position: absolute;
+  font-size: 25px;
+  margin:0 auto;
+  font-family: Hill;
+  src: url(font/Hill.otf);
+  top: 53%;
+  left: 34%;
+  text-shadow: 3px 3px #000000;
+}
+
 .description1 {
   position: relative;
   text-align: center;
@@ -108,7 +142,7 @@
 
 .logo2 {
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 35%;
 }
 
@@ -169,10 +203,10 @@
 
 .startbtn {
   position: absolute;
-  top: 60%;
-  right: 37%;
+  top: 80%;
+  right: 44%;
   height: 100px;
-  width: 400px;
+  width: 200px;
   font-size: 40px;
   font-family: Hill;
   src: url(font/Hill.otf);
